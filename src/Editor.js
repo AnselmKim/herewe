@@ -70,7 +70,7 @@ class Editor extends Component {
         <div className="actionBar">
           <button className="upload"
             disabled={!this.hasValue(this.state.content)}
-            onClick={this.handleSubmit}><span>스탠드업!</span></button>
+            onClick={this.handleSubmit}><span>GO</span></button>
         </div>
       </div>
     );
